@@ -1,6 +1,6 @@
 FROM  centos:latest
-MAINTAINER nhkbuddhdev@gmail.com
-RUN apt install -y httpd \
+MAINTAINER vikashashoke@gmail.com
+RUN yum install -y httpd \
  zip\
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
@@ -13,8 +13,8 @@ EXPOSE 80
  
  
 # FROM  centos:latest
-# MAINTAINER nhkbuddhdev@gmail.com
-# RUN apt install -y httpd \
+# MAINTAINER vikashashoke@gmail.com
+# RUN yum install -y httpd \
 #  zip\
 #  unzip
 # ADD https://www.free-css.com/assets/files/free-css-templates/download/page265/shine.zip /var/www/html/
