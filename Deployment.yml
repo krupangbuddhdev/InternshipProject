@@ -1,0 +1,20 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+   name: krupangbuddhdev
+spec:
+   replicas: 2
+   selector:
+    matchLabels:
+     app: krupangbuddhdev
+   template:
+      metadata:
+        labels:
+          app: krupangbuddhdev
+      spec:
+       containers:
+        - name: krupangbuddhdev
+          image: krupangbuddhdev/docker-webapp3
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
