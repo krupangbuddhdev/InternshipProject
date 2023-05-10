@@ -1,0 +1,3 @@
+rsync -avh /var/lib/jenkins/workspace/internship_project/* root@172.31.47.34:/opt
+rsync -avh /var/lib/jenkins/workspace/internship_project/* root@172.31.4.118:/home/ubuntu
+rsync -avh /var/lib/jenkins/workspace/internship_project/* root@172.31.4.118:/root
