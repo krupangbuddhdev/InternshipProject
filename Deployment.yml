@@ -14,8 +14,7 @@ spec:
       spec:
        containers:
         - name: krupangbuddhdev
-          #image: krupangbuddhdev/docker-webapp3
-          image: krupangbuddhdev/internship_project
+          image: krupangbuddhdev/docker-webapp3
           imagePullPolicy: Always
           ports:
           - containerPort: 80
